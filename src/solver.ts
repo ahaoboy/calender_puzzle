@@ -11,6 +11,7 @@ export const puzzleByType = {
       '.......',
       '.......',
       '...xxxx',
+      '....xxx',
     ],
   CENTER: [
     'x.....x',
@@ -23,45 +24,100 @@ export const puzzleByType = {
   ],
 }
 
-export const ROWS = 7
+export const ROWS = 8
 export const COLS = 7
 
 // 8
 export const items = [
   [
-    'x...',
-    'xxxx',
-  ],
-  [
     'x..',
     'xxx',
+    'x..',
+  ],
+  [
+    'xxxx'
+  ],
+  [
     '..x',
-  ],
-  [
-    '..xx',
-    'xxx.',
-  ],
-  [
-    'xxxx',
-    '..x.',
-  ],
-  [
-    '.xx',
     'xxx',
+    'x..'
+  ],
+  [
+    'x.',
+    'xx',
+    '.x'
+  ],
+  [
+    'x.',
+    'x.',
+    'xx',
+  ],
+  [
+    'xxx.',
+    '..xx'
+  ],
+  [
+    'xxx',
+    'x..',
+    'x..'
   ],
   [
     'xxx',
     'x.x',
   ],
   [
-    'xxx',
-    'xxx',
+    'xx',
+    '.x',
+    '.x',
+    '.x',
   ],
   [
-    'x..',
-    'x..',
-    'xxx',
-  ],
+    'xx',
+    'xx',
+    'x.',
+  ]
+  // [
+  //   'x...',
+  //   'xxx.',
+  // ],
+  // [
+  //   'x...',
+  //   'xxxx',
+  // ],
+  // [
+  //   'x..',
+  //   'xxx',
+  //   '..x',
+  // ],
+  // [
+  //   '..xx',
+  //   'xxx.',
+  // ],
+  // [
+  //   'xxxx',
+  //   '..x.',
+  // ],
+  // [
+  //   'xxxx',
+  //   '....',
+  // ],
+  // [
+  //   '.xx',
+  //   'xxx',
+  // ],
+  // [
+  //   'xxx',
+  //   'x.x',
+  // ],
+  // [
+  //   'xxx',
+  //   'xxx',
+  // ],
+  // [
+  //   'x..',
+  //   'x..',
+  //   'xxx',
+  // ],
 ]
 
 const rotate = (item: string[]) => {
